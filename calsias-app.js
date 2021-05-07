@@ -1,4 +1,7 @@
 // alert('hello')
+
+// faren-Height to Calcius...........................................................
+
 var btn = document.getElementById('btn').addEventListener('click', (event) => {
     event.preventDefault();
     var farn = document.getElementById('farn').value;
@@ -10,6 +13,10 @@ var btn = document.getElementById('btn').addEventListener('click', (event) => {
     cals.innerHTML = "Calcius Is : " + calcias + " deg";
 
 })
+
+//  Calcius to faren-Height.........................................................
+
+
 var btn = document.getElementById('btn1').addEventListener('click', (event) => {
     event.preventDefault();
     var calsy = document.getElementById('cals').value;
